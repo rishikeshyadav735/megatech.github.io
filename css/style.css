@@ -1,0 +1,380 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foot a{
+    text-decoration: none!important;
+    color: white;
+}
+
+.foot a:hover{
+    text-decoration: none!important;
+    color: black;
+}
+
+.headernav li{
+    padding: 0px 35px;
+}
+
+ul.headernav li a:hover{
+    background-color: white;
+    color: black!important;
+    
+}
+
+.log{
+    width: 350px;
+    height: 200px;
+    margin: 0px 500px;
+    transition: transform .2s;
+    
+}
+
+.log:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.titlehead:hover{
+   color: white;
+}
+
+.homeCaro img {
+    width: 100%!important;
+    height: 480px;
+}
+
+.container{
+    width: 100%!important;
+    margin: 0;
+}
+
+.fontIcon{
+    height: 50px!important;
+    width: 50px!important;
+    background-color:black;
+    border-radius: 15px!important;
+    }
+
+
+
+.midsec{
+    margin: 80px 0px 30px 0px!important;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.midsecdiv{
+    background-color: white;
+    border: medium none;
+    padding: 20px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+    color:black;
+}
+
+.midsecdiv:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0, 0.3);
+    transform: translateY(-20px);
+}
+
+
+.midsecdiv h2{
+    font-size: 1.5rem;
+    margin: 20px 0px 15px 0px;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.copyr{
+    background-color: #2d2d2d;
+}
+
+
+.copyr a{
+    text-decoration: none!important;
+    
+}
+
+.copyr a:hover{
+    text-decoration: none!important;
+    color: black;
+}
+#carouselExampleIndicators{
+    padding: 0px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+
+  .carousel-inner {
+    height: auto;
+  }
+  
+  /* .carousel-control-prev {
+    margin-left: -100px;
+  }
+  
+  .carousel-control-next {
+    margin-right: -100px;
+  } */
+
+/* *********************************** CONTACT PAGE **************************************** */
+
+.contact{
+    padding: 20px;
+}
+
+.contactdiv{
+    margin: 0px 320px!important;
+    
+}
+.contactdiv a{
+    color: black!important;
+
+}
+.contactdiv li:hover,.contactdiv a:hover{
+    color: blue!important;
+}
+
+/* ***************************** ABOUT PAGE ***************************************************** */
+
+.offer{
+    margin: 10px!important;
+    color: black;
+}
+
+
+.pricing{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+
+.pricing:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(360deg,grey 55%, #fff 0%);
+}
+
+.money{
+    font-size: 40px;
+    line-height: 1;
+    color: #606060;
+}
+
+.card{
+    transition: 0.4s ease;
+
+}
+
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: white!important;
+    padding: 25px 9!important;
+}
+
+.card-body{
+    padding: 30px 0px!important;
+}
+
+.card-footer{
+    background: white!important;
+    padding: 30px 0px!important;
+
+}
+
+.card-footer a{
+    text-decoration: none!important;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.card:hover .card-footer a{
+    color: white;
+    background: grey;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card-second{
+    transform: translateY(-20px);
+}
+
+
+/* *********************************** CLIENTS PAGE ***************************************** */
+
+.client{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+
+}
+
+.box{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0, 0,0, 0.3);
+    border-radius: 2px;
+    transition: 0.3 ease;
+
+}
+
+.box:hover{
+    background: grey;
+}
+
+.box:hover p{
+    color: white;
+
+}
+
+.box:hover h1,.box:hover h2{
+    color: white;
+
+}
+
+.indi{
+    position: absolute;
+    right: 0;
+    bottom: -60px!important;
+
+
+}
+
+.indi li{
+    background-color: black!important;
+}
+
+.box a{
+    position: relative;
+}
+
+.box a img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.box a:after{
+    content: "\f10d";
+    font-family: FontAwesome;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #16c9f6;
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box h1{
+    font-size: 18px;
+    font-size: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.box h2{
+    font-size: 13px;
+    font-size: 400;
+    color: #666666;
+    margin-bottom: 20px;
+} 
+
+/* ************************************** ENQUIRY PAGE ************************************ */
+
+.enquiry{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    padding: 80px 0;
+}
+
+.form-button button{
+    text-decoration: none!important;
+   
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+
+}
+
+.form-button button:hover{
+    background: black;
+    color:white;
+}
+
+/* *************************** Contact Page **************************************** */
+
+
+@media (max-width: 768px){
+
+    .titlehead{
+        width: 100%;
+        display: block;
+    }
+
+    .log{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .nav-item{
+        text-align: center!important;
+    }
+
+    .pricing{
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .card-second{
+        transform: translateY(0px);
+        margin:30px 0;
+    }
+
+    .client{
+        height: auto;
+        
+    
+    }
+}
